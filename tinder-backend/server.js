@@ -1,4 +1,4 @@
-// LAKTpC72nEx83TtA
+
 import express from 'express';
 import mongoose from 'mongoose';
 import Cards from  './dbcards.js';
@@ -7,7 +7,7 @@ import Cors from 'cors';
 //App Config
 const app = express();
 const port = process.env.PORT || 8001;
-const connection_url = "mongodb+srv://admin:LAKTpC72nEx83TtA@cluster0.65lkw.mongodb.net/tinderdb?retryWrites=true&w=majority";
+const connection_url = "mongodb+srv://admin:<password>@cluster0.65lkw.mongodb.net/tinderdb?retryWrites=true&w=majority";
 
 //Middlewares
 app.use(express.json);
